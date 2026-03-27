@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* MyShakeRage.app in Products */ = {isa = PBXBuildFile; fileRef = A10000020000000000000001 /* MyShakeRage.app */; };
+		A10000010000000000000002 /* MyShakeRageTests.xctest in Products */ = {isa = PBXBuildFile; fileRef = A10000020000000000000002 /* MyShakeRageTests.xctest */; };
+		D00000010000000000000001 /* MyShakeRageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000001 /* MyShakeRageApp.swift */; };
+		D00000010000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000002 /* AppModel.swift */; };
+		D00000010000000000000003 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000003 /* MainTabView.swift */; };
+		D00000010000000000000004 /* ShakeIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000004 /* ShakeIntensity.swift */; };
+		D00000010000000000000005 /* PlaybackMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000005 /* PlaybackMode.swift */; };
+		D00000010000000000000006 /* HapticStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000006 /* HapticStrength.swift */; };
+		D00000010000000000000007 /* RecordingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000007 /* RecordingItem.swift */; };
+		D00000010000000000000008 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000008 /* AppSettings.swift */; };
+		D00000010000000000000009 /* ShakeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000009 /* ShakeEvent.swift */; };
+		D00000010000000000000010 /* ShakeIntensityClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000010 /* ShakeIntensityClassifier.swift */; };
+		D00000010000000000000011 /* ShakeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000011 /* ShakeEngine.swift */; };
+		D00000010000000000000012 /* PlaybackSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000012 /* PlaybackSelector.swift */; };
+		D00000010000000000000013 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000013 /* AudioEngine.swift */; };
+		D00000010000000000000014 /* RecordingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000014 /* RecordingStore.swift */; };
+		D00000010000000000000015 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000015 /* SettingsStore.swift */; };
+		D00000010000000000000016 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000016 /* HapticsManager.swift */; };
+		D00000010000000000000017 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000017 /* HomeViewModel.swift */; };
+		D00000010000000000000018 /* RecordingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000018 /* RecordingsViewModel.swift */; };
+		D00000010000000000000019 /* RecordingSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000019 /* RecordingSessionViewModel.swift */; };
+		D00000010000000000000020 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000020 /* HomeView.swift */; };
+		D00000010000000000000021 /* RecordingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000021 /* RecordingsView.swift */; };
+		D00000010000000000000022 /* RecordingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000022 /* RecordingSheet.swift */; };
+		D00000010000000000000023 /* EditRecordingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000023 /* EditRecordingSheet.swift */; };
+		D00000010000000000000024 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000024 /* SettingsView.swift */; };
+		D00000010000000000000025 /* IntensityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000025 /* IntensityBadge.swift */; };
+		D00000010000000000000026 /* WaveformBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000026 /* WaveformBarsView.swift */; };
+		D00000010000000000000027 /* ShakeMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000027 /* ShakeMeterView.swift */; };
+		D00000010000000000000028 /* AVAudioSession+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000028 /* AVAudioSession+Setup.swift */; };
+		D00000010000000000000029 /* Date+DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000029 /* Date+DayKey.swift */; };
+		D00000010000000000000030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000030 /* Assets.xcassets */; };
+		D00000010000000000000031 /* ShakeIntensityClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000031 /* ShakeIntensityClassifierTests.swift */; };
+		D00000010000000000000032 /* PlaybackSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000032 /* PlaybackSelectorTests.swift */; };
+		D00000010000000000000033 /* RecordingStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000033 /* RecordingStoreTests.swift */; };
+		D00000010000000000000034 /* DateDayKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000034 /* DateDayKeyTests.swift */; };
+		D00000010000000000000035 /* TemporaryDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000010000000000000035 /* TemporaryDirectory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000030000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000040000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000050000000000000001;
+			remoteInfo = MyShakeRage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10000020000000000000001 /* MyShakeRage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShakeRage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000020000000000000002 /* MyShakeRageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShakeRageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00000010000000000000001 /* MyShakeRageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShakeRageApp.swift; sourceTree = "<group>"; };
+		C00000010000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppModel.swift; sourceTree = "<group>"; };
+		C00000010000000000000003 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/MainTabView.swift; sourceTree = "<group>"; };
+		C00000010000000000000004 /* ShakeIntensity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ShakeIntensity.swift; sourceTree = "<group>"; };
+		C00000010000000000000005 /* PlaybackMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/PlaybackMode.swift; sourceTree = "<group>"; };
+		C00000010000000000000006 /* HapticStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/HapticStrength.swift; sourceTree = "<group>"; };
+		C00000010000000000000007 /* RecordingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RecordingItem.swift; sourceTree = "<group>"; };
+		C00000010000000000000008 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AppSettings.swift; sourceTree = "<group>"; };
+		C00000010000000000000009 /* ShakeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ShakeEvent.swift; sourceTree = "<group>"; };
+		C00000010000000000000010 /* ShakeIntensityClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ShakeIntensityClassifier.swift; sourceTree = "<group>"; };
+		C00000010000000000000011 /* ShakeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ShakeEngine.swift; sourceTree = "<group>"; };
+		C00000010000000000000012 /* PlaybackSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PlaybackSelector.swift; sourceTree = "<group>"; };
+		C00000010000000000000013 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AudioEngine.swift; sourceTree = "<group>"; };
+		C00000010000000000000014 /* RecordingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/RecordingStore.swift; sourceTree = "<group>"; };
+		C00000010000000000000015 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/SettingsStore.swift; sourceTree = "<group>"; };
+		C00000010000000000000016 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HapticsManager.swift; sourceTree = "<group>"; };
+		C00000010000000000000017 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		C00000010000000000000018 /* RecordingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/RecordingsViewModel.swift; sourceTree = "<group>"; };
+		C00000010000000000000019 /* RecordingSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/RecordingSessionViewModel.swift; sourceTree = "<group>"; };
+		C00000010000000000000020 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		C00000010000000000000021 /* RecordingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Recordings/RecordingsView.swift; sourceTree = "<group>"; };
+		C00000010000000000000022 /* RecordingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Recordings/RecordingSheet.swift; sourceTree = "<group>"; };
+		C00000010000000000000023 /* EditRecordingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Recordings/EditRecordingSheet.swift; sourceTree = "<group>"; };
+		C00000010000000000000024 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		C00000010000000000000025 /* IntensityBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Shared/IntensityBadge.swift; sourceTree = "<group>"; };
+		C00000010000000000000026 /* WaveformBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Shared/WaveformBarsView.swift; sourceTree = "<group>"; };
+		C00000010000000000000027 /* ShakeMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Shared/ShakeMeterView.swift; sourceTree = "<group>"; };
+		C00000010000000000000028 /* AVAudioSession+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions/AVAudioSession+Setup.swift; sourceTree = "<group>"; };
+		C00000010000000000000029 /* Date+DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions/Date+DayKey.swift; sourceTree = "<group>"; };
+		C00000010000000000000030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		C00000010000000000000031 /* ShakeIntensityClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeIntensityClassifierTests.swift; sourceTree = "<group>"; };
+		C00000010000000000000032 /* PlaybackSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackSelectorTests.swift; sourceTree = "<group>"; };
+		C00000010000000000000033 /* RecordingStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingStoreTests.swift; sourceTree = "<group>"; };
+		C00000010000000000000034 /* DateDayKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDayKeyTests.swift; sourceTree = "<group>"; };
+		C00000010000000000000035 /* TemporaryDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport/TemporaryDirectory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000060000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000060000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000070000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000070000000000000002 /* MyShakeRage */,
+				A10000070000000000000003 /* MyShakeRageTests */,
+				A10000070000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000070000000000000002 /* MyShakeRage */ = {
+			isa = PBXGroup;
+			children = (
+				C00000010000000000000001 /* MyShakeRageApp.swift */,
+				C00000010000000000000002 /* AppModel.swift */,
+				C00000010000000000000003 /* MainTabView.swift */,
+				C00000010000000000000004 /* ShakeIntensity.swift */,
+				C00000010000000000000005 /* PlaybackMode.swift */,
+				C00000010000000000000006 /* HapticStrength.swift */,
+				C00000010000000000000007 /* RecordingItem.swift */,
+				C00000010000000000000008 /* AppSettings.swift */,
+				C00000010000000000000009 /* ShakeEvent.swift */,
+				C00000010000000000000010 /* ShakeIntensityClassifier.swift */,
+				C00000010000000000000011 /* ShakeEngine.swift */,
+				C00000010000000000000012 /* PlaybackSelector.swift */,
+				C00000010000000000000013 /* AudioEngine.swift */,
+				C00000010000000000000014 /* RecordingStore.swift */,
+				C00000010000000000000015 /* SettingsStore.swift */,
+				C00000010000000000000016 /* HapticsManager.swift */,
+				C00000010000000000000017 /* HomeViewModel.swift */,
+				C00000010000000000000018 /* RecordingsViewModel.swift */,
+				C00000010000000000000019 /* RecordingSessionViewModel.swift */,
+				C00000010000000000000020 /* HomeView.swift */,
+				C00000010000000000000021 /* RecordingsView.swift */,
+				C00000010000000000000022 /* RecordingSheet.swift */,
+				C00000010000000000000023 /* EditRecordingSheet.swift */,
+				C00000010000000000000024 /* SettingsView.swift */,
+				C00000010000000000000025 /* IntensityBadge.swift */,
+				C00000010000000000000026 /* WaveformBarsView.swift */,
+				C00000010000000000000027 /* ShakeMeterView.swift */,
+				C00000010000000000000028 /* AVAudioSession+Setup.swift */,
+				C00000010000000000000029 /* Date+DayKey.swift */,
+				C00000010000000000000030 /* Assets.xcassets */,
+			);
+			path = MyShakeRage;
+			sourceTree = "<group>";
+		};
+		A10000070000000000000003 /* MyShakeRageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C00000010000000000000031 /* ShakeIntensityClassifierTests.swift */,
+				C00000010000000000000032 /* PlaybackSelectorTests.swift */,
+				C00000010000000000000033 /* RecordingStoreTests.swift */,
+				C00000010000000000000034 /* DateDayKeyTests.swift */,
+				C00000010000000000000035 /* TemporaryDirectory.swift */,
+			);
+			path = MyShakeRageTests;
+			sourceTree = "<group>";
+		};
+		A10000070000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000020000000000000001 /* MyShakeRage.app */,
+				A10000020000000000000002 /* MyShakeRageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000050000000000000001 /* MyShakeRage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000080000000000000001 /* Build configuration list for PBXNativeTarget "MyShakeRage" */;
+			buildPhases = (
+				A10000090000000000000001 /* Sources */,
+				A10000060000000000000001 /* Frameworks */,
+				A10000100000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyShakeRage;
+			productName = MyShakeRage;
+			productReference = A10000020000000000000001 /* MyShakeRage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000050000000000000002 /* MyShakeRageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000080000000000000002 /* Build configuration list for PBXNativeTarget "MyShakeRageTests" */;
+			buildPhases = (
+				A10000090000000000000002 /* Sources */,
+				A10000060000000000000002 /* Frameworks */,
+				A10000100000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000110000000000000001 /* PBXTargetDependency */,
+			);
+			name = MyShakeRageTests;
+			productName = MyShakeRageTests;
+			productReference = A10000020000000000000002 /* MyShakeRageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000040000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000050000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A10000050000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A10000050000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A10000080000000000000003 /* Build configuration list for PBXProject "MyShakeRage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000070000000000000001;
+			productRefGroup = A10000070000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000050000000000000001 /* MyShakeRage */,
+				A10000050000000000000002 /* MyShakeRageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000100000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000010000000000000030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000100000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000090000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000010000000000000001 /* MyShakeRageApp.swift in Sources */,
+				D00000010000000000000002 /* AppModel.swift in Sources */,
+				D00000010000000000000003 /* MainTabView.swift in Sources */,
+				D00000010000000000000004 /* ShakeIntensity.swift in Sources */,
+				D00000010000000000000005 /* PlaybackMode.swift in Sources */,
+				D00000010000000000000006 /* HapticStrength.swift in Sources */,
+				D00000010000000000000007 /* RecordingItem.swift in Sources */,
+				D00000010000000000000008 /* AppSettings.swift in Sources */,
+				D00000010000000000000009 /* ShakeEvent.swift in Sources */,
+				D00000010000000000000010 /* ShakeIntensityClassifier.swift in Sources */,
+				D00000010000000000000011 /* ShakeEngine.swift in Sources */,
+				D00000010000000000000012 /* PlaybackSelector.swift in Sources */,
+				D00000010000000000000013 /* AudioEngine.swift in Sources */,
+				D00000010000000000000014 /* RecordingStore.swift in Sources */,
+				D00000010000000000000015 /* SettingsStore.swift in Sources */,
+				D00000010000000000000016 /* HapticsManager.swift in Sources */,
+				D00000010000000000000017 /* HomeViewModel.swift in Sources */,
+				D00000010000000000000018 /* RecordingsViewModel.swift in Sources */,
+				D00000010000000000000019 /* RecordingSessionViewModel.swift in Sources */,
+				D00000010000000000000020 /* HomeView.swift in Sources */,
+				D00000010000000000000021 /* RecordingsView.swift in Sources */,
+				D00000010000000000000022 /* RecordingSheet.swift in Sources */,
+				D00000010000000000000023 /* EditRecordingSheet.swift in Sources */,
+				D00000010000000000000024 /* SettingsView.swift in Sources */,
+				D00000010000000000000025 /* IntensityBadge.swift in Sources */,
+				D00000010000000000000026 /* WaveformBarsView.swift in Sources */,
+				D00000010000000000000027 /* ShakeMeterView.swift in Sources */,
+				D00000010000000000000028 /* AVAudioSession+Setup.swift in Sources */,
+				D00000010000000000000029 /* Date+DayKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000090000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000010000000000000031 /* ShakeIntensityClassifierTests.swift in Sources */,
+				D00000010000000000000032 /* PlaybackSelectorTests.swift in Sources */,
+				D00000010000000000000033 /* RecordingStoreTests.swift in Sources */,
+				D00000010000000000000034 /* DateDayKeyTests.swift in Sources */,
+				D00000010000000000000035 /* TemporaryDirectory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000110000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000050000000000000001 /* MyShakeRage */;
+			targetProxy = A10000030000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10000120000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000120000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A10000120000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyShakeRage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdrpa.MyShakeRage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000120000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyShakeRage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdrpa.MyShakeRage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A10000120000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdrpa.MyShakeRageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShakeRage.app/MyShakeRage";
+			};
+			name = Debug;
+		};
+		A10000120000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdrpa.MyShakeRageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyShakeRage.app/MyShakeRage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000080000000000000001 /* Build configuration list for PBXNativeTarget "MyShakeRage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000120000000000000003 /* Debug */,
+				A10000120000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000080000000000000002 /* Build configuration list for PBXNativeTarget "MyShakeRageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000120000000000000005 /* Debug */,
+				A10000120000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000080000000000000003 /* Build configuration list for PBXProject "MyShakeRage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000120000000000000001 /* Debug */,
+				A10000120000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000040000000000000001 /* Project object */;
+}
